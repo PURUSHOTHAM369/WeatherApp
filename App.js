@@ -37,7 +37,7 @@ export default function App() {
         placeholder="Enter city name"
         value={city}
         onChangeText={setCity}
-        style={styles.input}
+        style={styles.input}]
       />
       <Button title="Get Weather" onPress={getWeather} />
 
